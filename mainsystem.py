@@ -10,3 +10,6 @@ login_manager = LoginManager(app)
 login_manager.login_view = 'home'
 
 from modules import routes
+
+if __name__ == '__main__':
+    app.run(debug=True)
